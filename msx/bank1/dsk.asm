@@ -570,6 +570,7 @@ _DSK_MOUNT:
     add hl,de   ;HL = Buffer for file name from CURFILE
     push hl
     ex de,hl
+    ld b,12
     ld hl,DSK_CURFILE_S
     call DSK_READ_MAIN_CONFIG_FILE
     pop hl
@@ -788,7 +789,6 @@ _DSK_REMOUNT:
     add hl,bc
     ex de,hl
     ld hl,DSK_CURFILE_S
-    ld b,12
     call DSK_READ_MAIN_CONFIG_FILE
     or a
     jr z,_DSK_REMOUNT_OK

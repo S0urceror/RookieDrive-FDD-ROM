@@ -46,7 +46,7 @@ INIENV_IMPL:
 
     xor a
     call VERBOSE_RESET
-    ld b,30
+    ld b,120
 DELAY_AFTER_PRINT:
     halt
     djnz DELAY_AFTER_PRINT

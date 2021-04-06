@@ -1,0 +1,26 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "make",
+			"script": "rookiefdd.rom",
+			"target": "rookiefdd.rom",
+			"path": "msx/",
+			"fileName": "Makefile",
+			"uri": {
+				"$mid": 1,
+				"fsPath": "/Users/mario/Development/msx/Hardware/RookieDrive-FDD-ROM/msx/Makefile",
+				"path": "/Users/mario/Development/msx/Hardware/RookieDrive-FDD-ROM/msx/Makefile",
+				"scheme": "file"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"label": "make: rookiefdd.rom"
+		}
+	]
+}
